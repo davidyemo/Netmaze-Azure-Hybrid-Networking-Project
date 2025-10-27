@@ -175,5 +175,5 @@ Image 47:
 Image 48:
 
 
-<img width="859" height="5545" alt="image" src="https://github.com/user-attachments/assets/ef46e6ca-f87e-4a31-ae8c-dd926c21fc98" />
+
 

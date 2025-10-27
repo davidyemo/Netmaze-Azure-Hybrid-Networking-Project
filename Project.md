@@ -1,4 +1,4 @@
-##1) Azure Virtual Network Setup
+## 1) Azure Virtual Network Setup
 
 Provisioned NetMaze-Vnet1 in West US using the address space 10.0.0.0/16 and segmented the network into three application subnets: WebApp-Subnet (10.0.0.0/24), Database-Subnet (10.0.1.0/24), and Admin-Subnet (10.0.2.0/24).
 
@@ -8,14 +8,14 @@ Image 2:
 
 
 
-##2) On-Premises Network Simulation
+## 2) On-Premises Network Simulation
 
 To simulate an on-prem environment, I created NetMaze-Vnet2 in West US 2 with the address space 10.1.0.0/16.
 
 Image 3:
 
 
-##3) Secure Connectivity (Gateway in VNet1)
+## 3) Secure Connectivity (Gateway in VNet1)
 
 I added a GatewaySubnet (10.0.3.0/24) to NetMaze-VNet1.
 
@@ -29,7 +29,7 @@ Image 6:
 
 
 
-##4) Resource Deployment in VNet1
+## 4) Resource Deployment in VNet1
 
 I deployed Maze-VM1 in the WebApp subnet to serve as a web tier VM.
 
@@ -46,7 +46,7 @@ Image 9:
 Image 10:
 
 
-##5) Network Access Control (NSGs)
+## 5) Network Access Control (NSGs)
 
 I configured two network security groups called NSG-WebApp and NSG-Database WebApp-Subnet and Database-Subnet. 
 
@@ -66,7 +66,7 @@ Image 15:
 
 
 
-##6) Secure Administrative Access (Bastion)
+## 6) Secure Administrative Access (Bastion)
 
 I added AzureBastionSubnet (10.0.4.0/26) 
 
@@ -86,7 +86,7 @@ Image 21:
 Screens: Image 17, Image 18, Image 19, Image 20, Image 21
 (Refs: images/image-17.png – image-21.png)
 
-##7) Private Access to Azure PaaS (Private Link)
+## 7) Private Access to Azure PaaS (Private Link)
 
 I created a second SQL private endpoint netmaze-sql-private-endpoint in the Database subnet. Note: My SQL Database can now only be accessed via its Private Endpoint inside the Vnet using the private IP (10.0.1.5) or FQDN; public internet access is blocked. 
 
@@ -103,7 +103,7 @@ Ran ns lookup for mazeserver-db.database.windows.net resolves to the privatelink
 Image 25:
 
 
-##8) DNS & Internal Load Balancing
+## 8) DNS & Internal Load Balancing
 
 I created a private DNS zone mywebapp.local and linked it to NetMaze-VNet1. 
 
@@ -140,7 +140,7 @@ Image 34:
 Image 35
 
 
-##9) Hybrid Connectivity (Site-to-Site VPN)
+## 9) Hybrid Connectivity (Site-to-Site VPN)
 
 I added a GatewaySubnet (10.1.0.0/24) to NetMaze-VNet2
 

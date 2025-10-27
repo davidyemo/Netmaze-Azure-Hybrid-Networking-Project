@@ -21,3 +21,35 @@ This project demonstrates how to:
 
 - Enforce segmentation and security with Network Security Groups (NSGs).
 
+# 🧠 Skills & Technologies Showcased
+
+Technical Skills:
+
+- Azure Virtual Networking (VNets, Subnets, Route Tables)
+
+- VPN Gateway configuration and site-to-site connectivity
+
+- Azure Bastion for secure RDP/SSH access
+
+- Azure Load Balancer (backend pools, probes, and rules)
+
+- Private Link and Private Endpoints
+
+- Network Security Groups (NSG rules and segmentation)
+
+- Azure Resource Manager deployment and configuration
+
+Soft Skills:
+
+- Problem-solving and troubleshooting connectivity issues
+
+- Logical network design and documentation
+
+- Attention to detail in configuration and validation
+
+Tools & Technologies:
+
+- Microsoft Azure Portal
+
+- PowerShell / Azure CLI
+

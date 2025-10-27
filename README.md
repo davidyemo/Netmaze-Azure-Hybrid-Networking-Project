@@ -3,4 +3,4 @@ NetMaze Hybrid Networking Project — An end-to-end Azure projectthat builds a s
 
 # What was the aim of the project?
 
-To build a secure, realistic hybrid Azure network that segments workloads, exposes apps privately, and connects a “cloud” VNet to a simulated on-prem VNet over a site-to-site VPN—then prove it works end-to-end.
+To build a secure, realistic hybrid Azure network that segments workloads, exposes applications privately, and connects a cloud VNet to a simulated on-prem VNet over a site-to-site VPN and then prove it works end-to-end.

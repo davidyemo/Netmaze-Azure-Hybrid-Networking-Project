@@ -2,7 +2,7 @@
 
 Provisioned NetMaze-Vnet1 in West US using the address space 10.0.0.0/16 and segmented the network into three application subnets: WebApp-Subnet (10.0.0.0/24), Database-Subnet (10.0.1.0/24), and Admin-Subnet (10.0.2.0/24).
 
-![image alt] (https://github.com/davidyemo/Netmaze-Azure-Hybrid-Networking-Project/blob/main/images/project-image1.png?raw=true:)
+![image alt](https://github.com/davidyemo/Netmaze-Azure-Hybrid-Networking-Project/blob/main/images/project-image1.png?raw=true)
 
 Image 2:
 

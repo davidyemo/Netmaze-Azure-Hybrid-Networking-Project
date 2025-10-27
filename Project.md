@@ -14,6 +14,8 @@ To simulate an on-prem environment, I created NetMaze-Vnet2 in West US 2 with th
 
 ![image alt](https://github.com/davidyemo/Netmaze-Azure-Hybrid-Networking-Project/blob/main/images/project-image3.png?raw=true)
 
+(This configuration is revisited and expanded upon in Step 9 Hybrid Connectivity Site-to-Site VPN)
+
 
 ## 3) Secure Connectivity (Gateway in VNet1)
 

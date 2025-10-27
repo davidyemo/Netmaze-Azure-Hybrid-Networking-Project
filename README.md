@@ -1,22 +1,23 @@
-# Netmaze-Azure-Hybrid-Networking-Project
+# Netmaze Azure Hybrid Networking Project
 NetMaze Hybrid Networking Project - An end-to-end Azure projectthat builds a segmented VNet, secures admin access with Bastion, exposes Azure SQL via Private Link, balances web traffic with an internal Load Balancer and connects to a simulated on-prem VNet using a site-to-site VPN. Includes NSGs and Private DNS. 
-# What was the aim of the project?
 
-To build a secure, realistic hybrid Azure network that segments workloads, exposes applications privately, and connects a cloud VNet to a simulated on-prem VNet over a site-to-site VPN and then prove it works end-to-end.
+# 🎯 Goal of the Project
 
-# Topics covered 
+The goal of the NetMaze Azure Networking Project is to design and deploy a secure and interconnected Azure network environment that simulates a real-world enterprise setup. The project focuses on building end-to-end connectivity between two virtual networks using VPN Gateway, enabling secure remote access with Bastion, and ensuring controlled communication through NSGs and Private Endpoints.
 
-- Virtual Networking: VNets, CIDR, subnets (WebApp/DB/Admin), GatewaySubnet, AzureBastionSubnet, cross-region (West US / West US 2).
+# 🧩 What Problem It Solves / Demonstrates
 
-- Security: NSGs (inbound rules + subnet associations), Azure Bastion for RDP/SSH (no public IPs), least-privilege notes for DB.
+The project effectively simulates how enterprise networks achieve secure hybrid connectivity, segregated network zones and controlled service access within Azure.
 
-- Hybrid Connectivity: Virtual Network Gateways (VPN type, SKUs, active-active), Local Network Gateways, S2S VPN (IPsec/IKEv2, PSK), connection status.
+This project demonstrates how to:
 
-- PaaS & Private Access: Azure SQL (server + DB), Private Link/Private Endpoint (private IP only), deny public access (validated via DNS).
+- Connect separate Azure networks (VNets) securely over the internet using VPN Gateway.
 
-- Name Resolution: Private DNS Zones (e.g., mywebapp.local), A records (e.g., web1.mywebapp.local), privatelink DNS + nslookup.
+- Enable remote management without exposing public IPs through Azure Bastion.
 
-- Traffic & Web Tier: Internal Standard Load Balancer (frontend, backend pool, rule), health probes, NSG probe allowance, IIS serving HTTP (80).
+- Securely access Azure PaaS services via Private Endpoints instead of public endpoints.
 
-- Operations & Validation: Portal Insights for LB health, Run Command/PowerShell (Install-WindowsFeature -name Web-Server -IncludeManagementTools, Start-Service W3SVC), ping/nslookup checks, VPN Connected.
+- Implement high availability using a Load Balancer to distribute traffic between backend VMs.
+
+- Enforce segmentation and security with Network Security Groups (NSGs).
 

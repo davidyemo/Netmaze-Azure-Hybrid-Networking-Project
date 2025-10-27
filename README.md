@@ -27,17 +27,17 @@ Technical Skills:
 
 - Azure Virtual Networking (VNets, Subnets, Route Tables)
 
-- VPN Gateway configuration and site-to-site connectivity
+- Azure VPN Gateway configuration and site-to-site connectivity
 
 - Azure Bastion for secure RDP/SSH access
 
 - Azure Load Balancer (backend pools, probes, and rules)
 
-- Private Link and Private Endpoints
+- Azure Private Link and Private Endpoints
 
 - Network Security Groups (NSG rules and segmentation)
 
-- Azure Resource Manager deployment and configuration
+- Azure DNS
 
 Soft Skills:
 

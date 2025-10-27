@@ -37,7 +37,7 @@ Technical Skills:
 
 - Network Security Groups (NSG rules and segmentation)
 
-- Azure DNS
+- Azure DNS (private dns zones)
 
 Soft Skills:
 

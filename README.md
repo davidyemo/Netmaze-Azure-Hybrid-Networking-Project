@@ -7,7 +7,7 @@ The goal of the NetMaze Azure Networking Project is to design and deploy a secur
 
 # 🧩 What Problem It Solves / Demonstrates
 
-The project effectively simulates how enterprise networks achieve secure hybrid connectivity, segregated network zones and controlled service access within Azure.
+The project effectively simulates how enterprise networks achieve secure hybrid connectivity within Azure.
 
 This project demonstrates how to:
 

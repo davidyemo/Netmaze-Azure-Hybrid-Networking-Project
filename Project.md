@@ -163,7 +163,7 @@ I created two Local Network Gateways so each side knows the other’s public IP 
 
 ![image alt](https://github.com/davidyemo/Netmaze-Azure-Hybrid-Networking-Project/blob/main/images/project-image41.png?raw=true)
 
-![image alt](https://github.com/davidyemo/Netmaze-Azure-Hybrid-Networking-Project/blob/main/images/project-image402.png?raw=true)
+![image alt](https://github.com/davidyemo/Netmaze-Azure-Hybrid-Networking-Project/blob/main/images/project-image42.png?raw=true)
 
 ![image alt](https://github.com/davidyemo/Netmaze-Azure-Hybrid-Networking-Project/blob/main/images/project-image43.png?raw=true)
 

@@ -1,15 +1,11 @@
 # Netmaze Azure Hybrid Networking Project
-An end-to-end Azure hybrid networking project that securely connects on-premises networks to Azure resources, ensuring safe data transfer, controlled access, and scalable cloud connectivity.
+An end to end Azure hybrid networking project that securely connects on-premises networks to Azure resources using Azure's networking capabilities.
 
 # 🎯 Goal of the Project
 
-The goal of the NetMaze Azure Networking Project is to design and deploy a secure and interconnected Azure network environment that simulates a real-world enterprise setup. The project focuses on building end-to-end connectivity between two virtual networks using VPN Gateway, enabling secure remote access with Bastion, and ensuring controlled communication through NSGs and Private Endpoints.
+The goal of the NetMaze Azure Hybrid Networking Project is to design and deploy a secure interconnected network environment in Azure that simulates hybrid connectivity between on-premises and cloud resources ensuring safe data transfer, controlled access and communication across virtual networks.
 
-# 🧩 What Problem It Solves / Demonstrates
-
-The project effectively simulates how enterprise networks achieve secure hybrid connectivity within Azure.
-
-This project demonstrates how to:
+# 🧩 Objective
 
 - Connect separate Azure networks (VNets) securely over the internet using VPN Gateway.
 
@@ -21,9 +17,7 @@ This project demonstrates how to:
 
 - Enforce segmentation and security with Network Security Groups (NSGs).
 
-# 🧠 Skills & Technologies Showcased
-
-Technical Skills:
+# 🧠 Key Technical Areas Covered
 
 - Azure Virtual Networking (VNets, Subnets, Route Tables)
 
@@ -39,7 +33,7 @@ Technical Skills:
 
 - Azure DNS (private dns zones)
 
-Soft Skills:
+💡 Soft Skills:
 
 - Problem-solving and troubleshooting connectivity issues
 
@@ -47,7 +41,7 @@ Soft Skills:
 
 - Attention to detail in configuration and validation
 
-Tools & Technologies:
+🔧 Tools
 
 - Microsoft Azure Portal
 

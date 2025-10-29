@@ -33,7 +33,7 @@ The goal of the NetMaze Azure Hybrid Networking Project is to design and deploy 
 
 - Azure DNS (private dns zones)
 
-💡 Soft Skills:
+# 💡 Soft Skills:
 
 - Problem-solving and troubleshooting connectivity issues
 
@@ -41,7 +41,7 @@ The goal of the NetMaze Azure Hybrid Networking Project is to design and deploy 
 
 - Attention to detail in configuration and validation
 
-🔧 Tools
+# 🔧 Tools
 
 - Microsoft Azure Portal
 

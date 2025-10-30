@@ -11,7 +11,7 @@ The goal of the NetMaze Azure Hybrid Networking Project is to design and deploy 
 
 - Enable remote management without exposing public IPs through Azure Bastion.
 
-- Securely access Azure PaaS services via Private Endpoints instead of public endpoints.
+- Securely access Azure PaaS services (Azure Sql Database) via Private Endpoints instead of public endpoints.
 
 - Implement high availability using a Load Balancer to distribute traffic between backend VMs.
 

@@ -19,7 +19,7 @@ The goal of the NetMaze Azure Hybrid Networking Project is to design and deploy 
 
 - Enforce segmentation and security with Network Security Groups (NSGs).
 
-# 🧠 Key Technical Areas Covered
+# 🧠 Key Azure Services used
 
 - Azure Virtual Networking (VNets, Subnets, Route Tables)
 

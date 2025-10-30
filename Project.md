@@ -181,7 +181,9 @@ Both connections show as connected.
 
 ![image alt](https://github.com/davidyemo/Netmaze-Azure-Hybrid-Networking-Project/blob/main/images/project-image48.png?raw=true)
 
-In summary, this setup creates a secure Site-to-Site (VNet-to-VNet) VPN tunnel between two VNets allowing encrypted communication and data flow between cloud resources and my simulated on-prem network.
+This confirms that the IPSec/IKEv2 VPN tunnel was successfully established between the two VNets.  
+
+Both networks can now securely exchange data simulating a **hybrid on-prem-to-cloud environment**.  
 
 
 

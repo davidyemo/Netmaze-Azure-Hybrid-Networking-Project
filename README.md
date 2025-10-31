@@ -1,5 +1,5 @@
 # Netmaze Azure Hybrid Networking Project
-An end to end Azure hybrid networking project that securely connects on-premises networks to Azure resources using Azure's networking capabilities.
+An end to end Azure hybrid networking project that securely connects on-premises networks to Azure resources.
 
 ![image alt](https://github.com/davidyemo/Netmaze-Azure-Hybrid-Networking-Project/blob/main/images/diagram-image1.png?raw=true)
 
